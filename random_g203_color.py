@@ -10,7 +10,7 @@ import datetime
 current_time = '{date:%Y-%m-%d_%H:%M:%S}'.format(date=datetime.datetime.now())
 
 S = 255
-V = 75
+V = 100
 
 
 def colorToHex(r, g, b):
